@@ -145,6 +145,7 @@ than… Define the threshold value: Enter
 60
 
 The following image illustrates an example of an alarm configuration.
+
 ![Alt text](image-3.png)
 
 CloudWatch metrics that should be selected.
@@ -187,7 +188,9 @@ To manually increase the CPU load of the EC2 instance, run the following command
 
 sudo stress --cpu 10 -v --timeout 400s
 The output from the command should look similar to the following image.
+
 ![Alt text](image-2.png)
+
 An example of the sudo stress --cpu 10 -v --timeout 400s command in the AWS CLI.
 
 When running the sudo stress --cpu 10 -v --timeout 400s command within the AWS CLI, the output shows that 10 CPUs were at 100 percent load over the period of 400 seconds. Once 400 seconds passes, it will drop down to 0 percent.
