@@ -184,10 +184,10 @@ On the panel to the left of these instructions, next to EC2InstanceURL, there is
 This link connects you to the Stress Test EC2 instance.
 
 To manually increase the CPU load of the EC2 instance, run the following command:
-![![Alt text](image-2.png)](image-1.png)
+
 sudo stress --cpu 10 -v --timeout 400s
 The output from the command should look similar to the following image.
-
+![Alt text](image-2.png)
 An example of the sudo stress --cpu 10 -v --timeout 400s command in the AWS CLI.
 
 When running the sudo stress --cpu 10 -v --timeout 400s command within the AWS CLI, the output shows that 10 CPUs were at 100 percent load over the period of 400 seconds. Once 400 seconds passes, it will drop down to 0 percent.
